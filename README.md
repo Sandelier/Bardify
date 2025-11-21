@@ -35,7 +35,7 @@ If you want to run this project yourself, then you will need the following:
 - Unzip the **Sounds** folder in **Bard sound script**
 
 > [!NOTE]
-> There is an initilization script in this folder which will automatically install all the libraries, checks if FFmpeg is found and unzips the sounds folder.
+> There is an initialization script in this folder which will automatically install all the libraries, checks if FFmpeg is found and unzips the sounds folder.
 
 ## Acknowledgements
 

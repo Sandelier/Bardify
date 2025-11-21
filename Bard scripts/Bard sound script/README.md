@@ -10,7 +10,7 @@ the converting is wildly inaccurate, and sometimes you can get illegal combos, s
 
 
 > [!IMPORTANT]
-> Unzip "Sounds.zip" file to get all he note sounds. Had to compress them since they are raw from the game, so they are quite big files.
+> Unzip "Sounds.zip" file to get all the note sounds. Had to compress them since they are raw from the game, so they are quite big files.
 
 ### Files
 **`makeSong.py`**  
