@@ -9,7 +9,7 @@ Allows you to real time render Doom with Neverwinter Bard perform mode
 
 > [!NOTE]
 > **Click the image to watch the video**  
-> [![Video](https://img.youtube.com/vi/1-boWYKisQ4/0.jpg)](https://youtu.be/1-boWYKisQ4?t=24)
+> [![Video](https://img.youtube.com/vi/HZLD0PE4fS8/0.jpg)](https://youtu.be/HZLD0PE4fS8?t=40)
 
 
 ## Requirements
