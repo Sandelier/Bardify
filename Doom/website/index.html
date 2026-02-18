@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Doom Canvas</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color: black !important;">
+        <canvas id="playareaCanvas" style="position: absolute"></canvas>
+        <canvas id="doomCanvas"></canvas>
+        <div id="perfOverlay">
+            <div class="perf-left">
+                <div>Total: <span id="perfTotal"></span> ms </div>
+                <div>Speed: <span id="perfSpeed"></span>
+                </div>
+                <div>Server: <span id="perfServerTotal"></span> ms </div>
+                <div class="perf-server-detail">Shift: <span id="perfServerShift"></span> ms </div>
+                <div class="perf-server-detail">Grid: <span id="perfServerGrid"></span> ms </div>
+                <div class="perf-server-detail">BardImg: <span id="perfServerBardImg"></span> ms </div>
+                <div>Parse: <span id="perfParse"></span> ms </div>
+                <div>Draw: <span id="perfDraw"></span> ms </div>
+            </div>
+            <div class="perf-right">
+                <div>Bards: <span id="perfBards"></span>
+                </div>
+                <div>shiftX: <span id="perfShiftX"></span>
+                </div>
+                <div>shiftY: <span id="perfShiftY"></span>
+                </div>
+                <div>sectionShift: <span id="perfSectionShift"></span>
+                </div>
+                <div>recording: <span id="perfRecording"></span>
+                </div>
+            </div>
+        </div>
+        <script src="controls.js"></script>
+        <script src="drawFrame.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

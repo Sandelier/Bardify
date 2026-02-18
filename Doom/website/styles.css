@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#doomCanvas {
+  background: black !important;
+}
+
+#perfOverlay {
+  position: fixed;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #14c975;
+  font-family: monospace;
+  font-size: 16px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 9999;
+
+  display: flex;
+  gap: 50px;
+}
+
+#perfOverlay .perf-left div,
+#perfOverlay .perf-right div {
+  padding: 2px;
+}
+
+#perfOverlay .perf-server-detail {
+  padding-left: 12px !important;
+}
